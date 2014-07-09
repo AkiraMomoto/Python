@@ -19,6 +19,7 @@
 		46621FDF196C44E000C243EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46621FC7196C44E000C243EF /* UIKit.framework */; };
 		46621FE7196C44E000C243EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46621FE5196C44E000C243EF /* InfoPlist.strings */; };
 		46621FE9196C44E000C243EF /* TestingUrlib2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46621FE8196C44E000C243EF /* TestingUrlib2Tests.m */; };
+		46621FF3196C459000C243EF /* Test.py in Resources */ = {isa = PBXBuildFile; fileRef = 46621FF2196C459000C243EF /* Test.py */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		46621FE4196C44E000C243EF /* TestingUrlib2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestingUrlib2Tests-Info.plist"; sourceTree = "<group>"; };
 		46621FE6196C44E000C243EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		46621FE8196C44E000C243EF /* TestingUrlib2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestingUrlib2Tests.m; sourceTree = "<group>"; };
+		46621FF2196C459000C243EF /* Test.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Test.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				46621FD3196C44E000C243EF /* AppDelegate.m */,
 				46621FD5196C44E000C243EF /* Images.xcassets */,
 				46621FCA196C44E000C243EF /* Supporting Files */,
+				46621FF2196C459000C243EF /* Test.py */,
 			);
 			path = TestingUrlib2;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46621FF3196C459000C243EF /* Test.py in Resources */,
 				46621FCE196C44E000C243EF /* InfoPlist.strings in Resources */,
 				46621FD6196C44E000C243EF /* Images.xcassets in Resources */,
 			);
