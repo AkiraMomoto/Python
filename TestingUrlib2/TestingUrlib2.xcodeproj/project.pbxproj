@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4611017B196ED52700775D81 /* SequenceReview.py in Resources */ = {isa = PBXBuildFile; fileRef = 4611017A196ED52700775D81 /* SequenceReview.py */; };
 		46621FC4196C44E000C243EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46621FC3196C44E000C243EF /* Foundation.framework */; };
 		46621FC6196C44E000C243EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46621FC5196C44E000C243EF /* CoreGraphics.framework */; };
 		46621FC8196C44E000C243EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46621FC7196C44E000C243EF /* UIKit.framework */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4611017A196ED52700775D81 /* SequenceReview.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = SequenceReview.py; sourceTree = "<group>"; };
 		46621FC0196C44E000C243EF /* TestingUrlib2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingUrlib2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46621FC3196C44E000C243EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		46621FC5196C44E000C243EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -114,6 +116,7 @@
 				46621FD5196C44E000C243EF /* Images.xcassets */,
 				46621FCA196C44E000C243EF /* Supporting Files */,
 				46621FF2196C459000C243EF /* Test.py */,
+				4611017A196ED52700775D81 /* SequenceReview.py */,
 			);
 			path = TestingUrlib2;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				46621FF3196C459000C243EF /* Test.py in Resources */,
 				46621FCE196C44E000C243EF /* InfoPlist.strings in Resources */,
 				46621FD6196C44E000C243EF /* Images.xcassets in Resources */,
+				4611017B196ED52700775D81 /* SequenceReview.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +447,7 @@
 				46621FEE196C44E000C243EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46621FEF196C44E000C243EF /* Build configuration list for PBXNativeTarget "TestingUrlib2Tests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +456,7 @@
 				46621FF1196C44E000C243EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
