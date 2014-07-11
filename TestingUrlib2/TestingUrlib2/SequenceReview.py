@@ -65,7 +65,6 @@ d = {'foo': 'x',
     """
 # Testing Web Connecting VIA Python
 import urllib2
-import urllib
 
 # Send a request to receive the file, get the response and store it in a variable
 request = urllib2.Request("http://api.researcher.poly.edu/test")
