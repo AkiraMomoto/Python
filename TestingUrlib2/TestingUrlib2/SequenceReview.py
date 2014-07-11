@@ -26,6 +26,29 @@ def not_divisble_by_2_or_3(x):
 
 # print filter(not_divisble_by_2_or_3, range(2, 25))
 
+# What does Filtering none do?
+str_list = [
+        "I have stuff",
+        "My partner, on the other hand",
+        "Will not, MUAHAHAHAA",
+        ""
+]
+
+# Filtering none does not let any values with str of length zero pass through.
+str_list = filter(None, str_list)
+
+# filtering other data types with None does not let ther uninitialized versions go through, or empty versions.
+list_of_lists = [
+            [1,2,3,4],
+            [4,5,6,7],
+            [],
+            [4,8,5,32]
+]
+
+list_of_lists = filter(None, list_of_lists)
+
+print list_of_lists
+
 d = {'foo': 'x',
     'bar': 'y',
     'zoo': None,
@@ -35,7 +58,7 @@ d = {'foo': 'x',
 # print dict((k, 'updated') for k, v in d.iteritems() if v is None)
 
 # Can it be done using filter?
-# - No, Filter returns a SEQUENCE not a dictionary, and only takes one item
+# - No, Filter returns a SEQUENCE not a dictionary, and only takes one item at a time
 """
     
     *************************************************************************************************************
@@ -66,7 +89,6 @@ jsonDic = {}
 
 for item in dictionaryList:
     jsonDic = item
-
 
 # now we can play with json since we have a fully working python dictionary
 import json
