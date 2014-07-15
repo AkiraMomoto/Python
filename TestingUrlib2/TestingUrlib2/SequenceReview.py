@@ -66,34 +66,31 @@ d = {'foo': 'x',
 # Testing Web Connecting VIA Python
 import urllib2
 
+# now we can play with json since we have a fully working python dictionary
+import json
+
 # Send a request to receive the file, get the response and store it in a variable
 request = urllib2.Request("http://api.researcher.poly.edu/test")
-jsonTextPractice = urllib2.urlopen(request)
 
-# The data is stored as a string, and has a tag that needs to be removed to become a JSon string
+# Json.loads takes in a string ( rather than a file like object) and converts it into a Python object for python into unicode
+jsonTextPractice = json.loads( urllib2.urlopen(request).read().strip("</pre>") )
+
+""" # The data is stored as a string, and has a tag that needs to be removed to become a JSon string
 fileText = jsonTextPractice.read()
 
 # Strip that tag from both sides, leave the list alone
 fileText = fileText.strip("</pre>")
+
 
 # Convert the string into the list represented
 # This leaves me with a list of objects, or a dictionary
 import ast
 
 dictionaryList =  ast.literal_eval(fileText)
-
-# Lets try making our own dictionary
-
-jsonDic = {}
-
-for item in dictionaryList:
-    jsonDic = item
-
-# now we can play with json since we have a fully working python dictionary
-import json
+"""
 
 # convert the dictionary into a json string
-jsonString = json.dumps(jsonDic, sort_keys=True, indent=4, separators=(',', ': '))
+jsonString = json.dumps(jsonTextPractice, sort_keys=True, indent=4, separators=(',', ': '))
 
 print jsonString
 
