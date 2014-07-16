@@ -23,6 +23,8 @@
 		46621FE7196C44E000C243EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46621FE5196C44E000C243EF /* InfoPlist.strings */; };
 		46621FE9196C44E000C243EF /* TestingUrlib2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46621FE8196C44E000C243EF /* TestingUrlib2Tests.m */; };
 		46621FF3196C459000C243EF /* Test.py in Resources */ = {isa = PBXBuildFile; fileRef = 46621FF2196C459000C243EF /* Test.py */; };
+		468AEB231976C0310055327E /* BattleShipPractice.py in Resources */ = {isa = PBXBuildFile; fileRef = 468AEB221976C0310055327E /* BattleShipPractice.py */; };
+		468AEB251976E0750055327E /* PlayingWithXPath.py in Resources */ = {isa = PBXBuildFile; fileRef = 468AEB241976E0750055327E /* PlayingWithXPath.py */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		46621FE6196C44E000C243EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		46621FE8196C44E000C243EF /* TestingUrlib2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestingUrlib2Tests.m; sourceTree = "<group>"; };
 		46621FF2196C459000C243EF /* Test.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Test.py; sourceTree = "<group>"; };
+		468AEB221976C0310055327E /* BattleShipPractice.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = BattleShipPractice.py; path = ../../../AppDev/BattleShipPractice.py; sourceTree = "<group>"; };
+		468AEB241976E0750055327E /* PlayingWithXPath.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = PlayingWithXPath.py; path = ../../PlayingWithXPath.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,8 @@
 				4611017A196ED52700775D81 /* SequenceReview.py */,
 				4608E16219757C3B0088DA14 /* ListIntersectionPractice.py */,
 				4608E1641975833A0088DA14 /* JsonCodeWithConditions.py */,
+				468AEB221976C0310055327E /* BattleShipPractice.py */,
+				468AEB241976E0750055327E /* PlayingWithXPath.py */,
 			);
 			path = TestingUrlib2;
 			sourceTree = "<group>";
@@ -237,6 +243,8 @@
 				46621FD6196C44E000C243EF /* Images.xcassets in Resources */,
 				4611017B196ED52700775D81 /* SequenceReview.py in Resources */,
 				4608E1651975833A0088DA14 /* JsonCodeWithConditions.py in Resources */,
+				468AEB231976C0310055327E /* BattleShipPractice.py in Resources */,
+				468AEB251976E0750055327E /* PlayingWithXPath.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
