@@ -16,16 +16,17 @@ if resource.geturl() == "http://pokemondb.net/about":
         # Rename the module as ET for easier accessing purposes
         
         import xml.etree.ElementTree as ET
-        # To get the root of the file, there are a few steps we need to go through
-        # Get an iterable, turn it into an iterator and then we can get the root
-        context = ET.iterparse(resource, events=("start", "end"))
-
-        # turn it into an iterator
-        context = iter(context)
-
-        # get the root element
-        event, root = context.next()
-        ET.dump(root)
+        """
+            We want to access all tags and all data from the website's XML and read it into a python dictionary. Once in the dictionary we can pretty print it using json
+            """
+        # What does the XML page look like?
+        
+        # Found the root of the tree!
+        tree = ET.ElementTree(resource)
+    
+        root = tree.getroot()
+        for child_of_root in root:
+            print child_of_root.tag, child_of_root.attrib
     else:
         print "Error with url, returned error code: %s" %( str(resource.getcode()) )
 else:
