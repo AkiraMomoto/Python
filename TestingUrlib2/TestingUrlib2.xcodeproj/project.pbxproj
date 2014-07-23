@@ -25,6 +25,7 @@
 		46621FF3196C459000C243EF /* Test.py in Resources */ = {isa = PBXBuildFile; fileRef = 46621FF2196C459000C243EF /* Test.py */; };
 		468AEB231976C0310055327E /* BattleShipPractice.py in Resources */ = {isa = PBXBuildFile; fileRef = 468AEB221976C0310055327E /* BattleShipPractice.py */; };
 		468AEB251976E0750055327E /* PlayingWithXPath.py in Resources */ = {isa = PBXBuildFile; fileRef = 468AEB241976E0750055327E /* PlayingWithXPath.py */; };
+		46E482A1198000E5003C9690 /* PracticingElementTree.py in Resources */ = {isa = PBXBuildFile; fileRef = 46E482A0198000E5003C9690 /* PracticingElementTree.py */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		46621FF2196C459000C243EF /* Test.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Test.py; sourceTree = "<group>"; };
 		468AEB221976C0310055327E /* BattleShipPractice.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = BattleShipPractice.py; path = ../../../AppDev/BattleShipPractice.py; sourceTree = "<group>"; };
 		468AEB241976E0750055327E /* PlayingWithXPath.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = PlayingWithXPath.py; path = ../../PlayingWithXPath.py; sourceTree = "<group>"; };
+		46E482A0198000E5003C9690 /* PracticingElementTree.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = PracticingElementTree.py; path = ../../PracticingElementTree.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 				4608E1641975833A0088DA14 /* JsonCodeWithConditions.py */,
 				468AEB221976C0310055327E /* BattleShipPractice.py */,
 				468AEB241976E0750055327E /* PlayingWithXPath.py */,
+				46E482A0198000E5003C9690 /* PracticingElementTree.py */,
 			);
 			path = TestingUrlib2;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				4608E1651975833A0088DA14 /* JsonCodeWithConditions.py in Resources */,
 				468AEB231976C0310055327E /* BattleShipPractice.py in Resources */,
 				468AEB251976E0750055327E /* PlayingWithXPath.py in Resources */,
+				46E482A1198000E5003C9690 /* PracticingElementTree.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
