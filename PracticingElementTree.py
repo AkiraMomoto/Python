@@ -80,3 +80,5 @@ root.set("hello","huhu")
 # Accessing text
 root.text = "TEXT"
 # print root.text
+
+# Playing with XPath needs 
